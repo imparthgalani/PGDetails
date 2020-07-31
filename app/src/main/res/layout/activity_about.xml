@@ -183,6 +183,7 @@
                 android:textSize="18sp" />
         </LinearLayout>
 
+
         <Button
             android:id="@+id/btnSendmessage"
             android:layout_width="0dp"
@@ -201,6 +202,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
