@@ -162,6 +162,7 @@
             android:background="@color/White"
             android:gravity="clip_horizontal|center|left"
             android:paddingLeft="32dp"
+            android:paddingTop="10dp"
             android:paddingRight="32dp"
             android:text="SIGN UP"
             android:textColor="#000000"
@@ -182,7 +183,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txtNotaccount"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"

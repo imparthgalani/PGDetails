@@ -170,7 +170,7 @@
                 android:layout_weight="1"
                 android:drawableStart="@drawable/ic_city"
                 android:drawablePadding="10dp"
-                android:padding="8dp"
+                android:padding="10dp"
                 android:text="Amreli"
                 android:textColor="#000000"
                 android:textSize="18sp" />
@@ -180,7 +180,7 @@
             android:id="@+id/btnSendmessage"
             android:layout_width="0dp"
             android:layout_height="65dp"
-            android:layout_marginTop="34dp"
+            android:layout_marginTop="35dp"
             android:background="@color/background"
             android:drawableEnd="@drawable/ic_arrow"
             android:paddingStart="110dp"
