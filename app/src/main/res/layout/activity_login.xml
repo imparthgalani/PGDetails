@@ -7,36 +7,36 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
-    <View
-        android:id="@+id/Union"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:background="@drawable/ic_union"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        app:layout_constraintBottom_toBottomOf="@+id/Union"
-        app:layout_constraintEnd_toEndOf="@+id/Union"
-        app:layout_constraintStart_toStartOf="@+id/Union"
-        app:layout_constraintTop_toTopOf="@+id/Union"
-        app:srcCompat="@drawable/ic_logo" />
+        <View
+            android:id="@+id/Union"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:background="@drawable/ic_union"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/Union"
+            app:layout_constraintEnd_toEndOf="@+id/Union"
+            app:layout_constraintStart_toStartOf="@+id/Union"
+            app:layout_constraintTop_toTopOf="@+id/Union"
+            app:srcCompat="@drawable/ic_logo" />
 
     <TextView
         android:id="@+id/txtLogin"
@@ -101,6 +101,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtForgotpassword">
+
+        <TextView
+            android:id="@+id/txtOr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="__________________  OR __________________"
+            android:textSize="18sp" />
+    </LinearLayout>
+
     <EditText
         android:id="@+id/edtFacebook"
         android:layout_width="0dp"
@@ -110,16 +132,16 @@
         android:layout_marginEnd="32dp"
         android:background="@color/Mariner"
         android:drawableStart="@drawable/ic_facebook"
-        android:drawablePadding="110dp"
+        android:drawablePadding="20dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:paddingStart="25dp"
-        android:text="Facebook"
+        android:text="Sign in with Facebook"
         android:textColor="@color/White"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtForgotpassword" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <EditText
         android:id="@+id/edtGoogle"
@@ -128,14 +150,14 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:background="@color/White"
+        android:background="#EFEAEA"
         android:drawableStart="@drawable/ic_google"
-        android:drawablePadding="110dp"
+        android:drawablePadding="15dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:paddingStart="20dp"
-        android:text="Google"
+        android:text="Sign in with Google"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtFacebook" />
@@ -187,7 +209,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="34dp"
         android:layout_marginEnd="200dp"
         android:text="Don’t have an account?"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -196,6 +218,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtGoogle"
         app:layout_constraintVertical_bias="0.0" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

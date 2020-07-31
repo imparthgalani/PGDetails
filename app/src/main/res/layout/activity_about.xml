@@ -143,7 +143,7 @@
         <LinearLayout
             android:id="@+id/linearLayout3"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
@@ -156,8 +156,8 @@
 
             <TextView
                 android:id="@+id/txtGender"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:drawableStart="@drawable/ic_gender"
                 android:drawablePadding="10dp"
@@ -170,8 +170,8 @@
 
             <TextView
                 android:id="@+id/txtCity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:drawableStart="@drawable/ic_city"
                 android:drawablePadding="10dp"
@@ -192,7 +192,7 @@
             android:drawableEnd="@drawable/ic_arrow"
             android:paddingStart="100dp"
             android:paddingEnd="100dp"
-            android:text="Send Message"
+            android:text="Contect Us"
             android:textAllCaps="false"
             android:textColor="@color/White"
             android:textSize="24sp"
