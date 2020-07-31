@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         >
 
+
         <View
             android:id="@+id/Union"
             android:layout_width="0dp"
@@ -142,14 +143,16 @@
         <LinearLayout
             android:id="@+id/linearLayout3"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
             android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtDegree" >
+            app:layout_constraintTop_toBottomOf="@+id/txtDegree">
 
             <TextView
                 android:id="@+id/txtGender"
@@ -159,6 +162,8 @@
                 android:drawableStart="@drawable/ic_gender"
                 android:drawablePadding="10dp"
                 android:padding="10dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
                 android:text="Male"
                 android:textColor="#000000"
                 android:textSize="18sp" />
@@ -171,6 +176,8 @@
                 android:drawableStart="@drawable/ic_city"
                 android:drawablePadding="10dp"
                 android:padding="10dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
                 android:text="Amreli"
                 android:textColor="#000000"
                 android:textSize="18sp" />
@@ -180,12 +187,12 @@
             android:id="@+id/btnSendmessage"
             android:layout_width="0dp"
             android:layout_height="65dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="32dp"
             android:background="@color/background"
             android:drawableEnd="@drawable/ic_arrow"
-            android:paddingStart="110dp"
-            android:paddingEnd="110dp"
-            android:text="Contect Us "
+            android:paddingStart="100dp"
+            android:paddingEnd="100dp"
+            android:text="Send Message"
             android:textAllCaps="false"
             android:textColor="@color/White"
             android:textSize="24sp"
@@ -193,8 +200,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
