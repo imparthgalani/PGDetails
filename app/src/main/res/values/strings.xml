@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Coder Mix</string>
+    <string name="app_name">Parth Galani</string>
+    <string name="title_Splash">Splash</string>
+    <string name="title_About">About</string>
+    <string name="title_Contact">Contact</string>
+    <string name="title_Login">Login</string>
 </resources>

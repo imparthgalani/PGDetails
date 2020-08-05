@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Contect"></activity>
-        <activity android:name=".About" />
-        <activity android:name=".Login" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:label="@string/title_Contact"
+            android:name=".Contect"></activity>
+        <activity
+            android:label="@string/title_About"
+            android:name=".About" />
+        <activity
+            android:label="@string/title_Login"
+            android:name=".Login" />
+        <activity
+            android:label="@string/title_Splash"
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
